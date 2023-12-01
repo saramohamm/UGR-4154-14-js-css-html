@@ -5,25 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-    <header class="blogheader">
-        <nav>
-            <a href="homepage.html">Home</a>
-            <a href="aboutpage.html">About</a>
-            <a href="resumepage.html">Resume</a>
-            <a href="servicepage.html">Services</a>
-        </nav>
+    <header>
+        <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" id="menu-icon">&#9776;</label>
+
+  <div id="menu">
+    <nav class="headers">
+        <a href="homepage.html">Home</a>
+        <a href="aboutpage.html">About</a>
+        <a href="resumepage.html">Resume</a>
+        <a href="servicepage.html">Services</a>
+    </nav>
+  </div>
+
+
+       
     </header>
 
     <div class="bcontent">
-        <h1 style="font-family: 'Playfair Display', serif;">Blog</h1>
+        <h1 style="font-family: serif;">Blog</h1>
 
         <div class="bvideo-container">
-            <iframe src="videos/sciencemuseum.mp4" frameborder="0" allowfullscreen></iframe>
+            <iframe src="videos/sciencemuseum.mp4" frameborder="0" allowfullscreen  ></iframe>
             <p>Explore the wonders of the Ethiopian Science Museum in this captivating video. Learn about the fascinating exhibits, interactive displays, and the museum's contribution to promoting scientific knowledge in Ethiopia.</p>
         </div>
 
