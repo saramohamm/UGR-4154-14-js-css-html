@@ -4,36 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
+    <title>Contact Page</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
+    
+    
+ 
 
-    
-        <header>
-            <input type="checkbox" id="menu-toggle">
-      <label for="menu-toggle" id="menu-icon">&#9776;</label>
-    
-      <div id="menu">
-        <nav class="headers">
+    <header class="contactheader">
+        <nav class="headerss">
             <a href="homepage.html">Home</a>
             <a href="aboutpage.html">About</a>
             <a href="resumepage.html">Resume</a>
             <a href="servicepage.html">Services</a>
         </nav>
-      </div>
-    </header>
-      <header class="contactheader">
-        
-    <nav class="headerss">
-        <a href="homepage.html">Home</a>
-        <a href="aboutpage.html">About</a>
-        <a href="resumepage.html">Resume</a>
-        <a href="servicepage.html">Services</a>
-    
-     </nav> 
     </header>
 
     <div class="contanctcontent">
@@ -53,26 +41,20 @@
                 <div class="input-group">
                     <input type="text" id="name" name="name" placeholder="Your Name">
                 </div>
-                
-                <div class="input-group">
 
+                <div class="input-group">
                     <input type="email" id="email" name="email" placeholder="Your Email">
                 </div>
-                
+
                 <div class="input-group">
                     <textarea id="message" name="message" placeholder="Your Message"></textarea>
                 </div>
-                
-                
-                <div class="input-group">
-                    
-                    <input type="text" id="subject" name="subject" placeholder="Your Subject" required>
-                    
-                </div>
-                
 
-                <button class="send-button">Send Message</button>
-            </div>
+                <div class="input-group">
+                    <input type="text" id="subject" name="subject" placeholder="Your Subject" required>
+                </div>
+
+                  </div>
         </div>
     </div>
 
@@ -83,7 +65,8 @@
             <a href="https://www.facebook.com/profile.php?id=100091143585896" target="_blank"><i class="fab fa-facebook"></i></a>
         </div>
     </footer>
-
+    <button onclick="scrollToTop()" class="scroll-to-top-button">Scroll to Top</button>
+     <script src="js/index.js"></script>
 </body>
 
 </html>

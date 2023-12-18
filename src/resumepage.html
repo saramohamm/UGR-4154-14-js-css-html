@@ -10,20 +10,7 @@
 
 <body>
    
-        <header>
-            <input type="checkbox" id="menu-toggle">
-      <label for="menu-toggle" id="menu-icon">&#9776;</label>
-    
-      <div id="menu">
-        <nav class="headers">
-            <a href="homepage.html">Home</a>
-            <a href="aboutpage.html">About</a>
-            <a href="blogpage.html">Blog</a>
-            <a href="servicepage.html">Services</a>
-        </nav>
-      </div>
-    
-    </header>
+        
     <header class="resumeheader">
         
         <nav class="headerss">
@@ -87,11 +74,9 @@
 
     <div class="rscroll-down" onclick="scrollToSection()">↓</div>
 
-    <script>
-        function scrollToSection() {
-            document.getElementById('header').scrollIntoView({ behavior: 'smooth' });
-        }
-    </script>
+    <script src="js/index.js"></script>
+
+    <button onclick="scrollToTop()" class="scroll-to-top-button">Scroll to Top</button>
 </body>
 
 </html>

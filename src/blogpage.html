@@ -1,40 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Page</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-
-    <header>
-        <input type="checkbox" id="menu-toggle">
-  <label for="menu-toggle" id="menu-icon">&#9776;</label>
-
-  <div id="menu">
-    <nav class="headers">
+    
+<header class="blogheader">
+    
+    <nav class="headerss">
         <a href="homepage.html">Home</a>
-        <a href="aboutpage.html">About</a>
-        <a href="resumepage.html">Resume</a>
-        <a href="servicepage.html">Services</a>
-    </nav>
-  </div>
-
-
-       
-    </header>
-    <header class="blogheader">
-        
-        <nav class="headerss">
-            <a href="homepage.html">Home</a>
-        <a href="aboutpage.html">About</a>
-        <a href="resumepage.html">Resume</a>
-        <a href="servicepage.html">Services</a>
-         </nav> 
-    </header>
+    <a href="aboutpage.html">About</a>
+    <a href="resumepage.html">Resume</a>
+    <a href="servicepage.html">Services</a>
+     </nav> 
+</header>
     <div class="bcontent">
         <h1 style="font-family: serif;">Blog</h1>
 
@@ -61,11 +44,18 @@
             <p>Listen to this calming instrumental music while reading a book or working. It's perfect for creating a focused and tranquil environment.</p>
         </div>
     </div>
+<!-- Add at the end of your HTML body -->
 
-    <footer class="blogfooter">
-        <a href="contactpage.html">Contact Me</a>
+    <footer class="contactfooter">
+        <div class="social-icons">
+            <a href="https://instagram.com/sarin_a7077?igshid=MzMyNGUyNmU2YQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://t.me/sevgili02" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100091143585896" target="_blank"><i class="fab fa-facebook"></i></a>
+            
+        </div>
     </footer>
-
+    <button onclick="scrollToTop()" class="scroll-to-top-button">Scroll to Top</button>
+    <script src="js/index.js"></script>
+    
 </body>
-
 </html>

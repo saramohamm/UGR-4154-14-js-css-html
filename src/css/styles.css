@@ -1,5 +1,21 @@
 
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+    background-color: #816432;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
 
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
 body {
     margin: 0;
     padding: 0;
@@ -20,6 +36,7 @@ body {
     color: rgb(63, 54, 37);
     text-align: right;
     font-size: 20px;
+    
     
     
     
@@ -58,8 +75,12 @@ body {
     #menu-icon{
         display: none;
     }
-}
+}  
+#menu a{
+    display: block;
+    text-decoration: none;
 
+}
     
   .headers {
     background-color: rgb(247, 225, 182);
