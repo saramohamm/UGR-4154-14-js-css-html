@@ -154,8 +154,7 @@ body {
     font-weight: bold;
     color: rgb(167, 127, 58);
     width: 100ev;
-    margin-top: 20px; /* Add space between main text and next text */
-
+    margin-top: 20px; 
 }
 
 
@@ -180,8 +179,7 @@ body {
     display: inline-block;
     overflow: hidden;
     cursor: pointer;
-    margin-bottom: 20px; /* Add space between circles */
-    
+    margin-bottom: 20px; 
 
 }
 button {
@@ -309,7 +307,7 @@ footer a{
         width: 370px; 
         height: 370px;
         margin-right: 30px;
-        margin-left: 30px;/* Two circles horizontally */
+        margin-left: 30px;
     }
     .circle-container{
         width:60% ;
@@ -319,7 +317,7 @@ footer a{
 
 
 @media only screen and (max-width: 915px) and (orientation: landscape) {
-    /* Mobile landscape styles */
+
     .headers {
         background-color: rgb(247, 225, 182);
         text-align: left;
@@ -368,7 +366,7 @@ footer a{
         font-weight: bold;
         color: rgb(167, 127, 58);
         width: 600px;
-        /* Add space between main text and next text */
+        
     
     }
     
@@ -381,7 +379,7 @@ footer a{
         background-color: transparent;
         overflow: hidden;
         cursor: pointer;
-        margin-bottom: 20px; /* Add space between circles */
+        margin-bottom: 20px; 
         
     
     }
@@ -413,20 +411,20 @@ footer a{
     
 
     .circle-container {
-        margin-left: 10%; /* Adjust margin for smaller screens */
+        margin-left: 10%; 
         flex-direction: row;
         align-items: center;
         top: 30%;
         margin-top: -12%;
         width: 70%;
-         /* Display circles in a column */
+        
     }
 
     .circle {
         width: 170px;
         height: 170px; 
         margin-left: 20px;
-        margin-right: 30px;/* Full width for mobile */
+        margin-right: 30px;
     }
 }
     @media only screen and (min-width: 1024px){
@@ -1169,13 +1167,12 @@ footer a{
 
 
 .bcontainer img {
-    width: 100ev; /* Set the width for each container in a row */
-    height: 400px;
+    width: 100ev; 
     
 }
 
 .bvideo-container iframe {
-    width: 100ev; /* Set the width for each container in a row */
+    width: 100ev; 
     height: 400px;
     
 }
@@ -1187,7 +1184,7 @@ footer a{
 .bvideo-container p,
 .baudio-container p {
     
-    max-width: 100%; /* Set the maximum width for each container in a row */
+    max-width: 100%; 
     
 }
 }
@@ -1328,18 +1325,18 @@ cursor: pointer;
 }
 
 
-/* Media query for tablets (portrait and landscape) */
+
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
     .service-item {
-        width: 30%; /* Set width for tablet screens */
+        width: 30%; 
         margin-bottom: 20px;
     }
 }
 
-/* Media query for desktop */
+
 @media only screen and (min-width: 1023px) {
     .service-item {
-        width: 40%; /* Set width for desktop screens */
+        width: 40%; 
         margin-bottom: 20px;
         justify-content: space-between;
         display: flex;
@@ -1377,7 +1374,7 @@ cursor: pointer;
 }
 @media only screen and (max-width: 915px) and (orientation: landscape) {
     .service-item {
-        width: 40%; /* Set width for desktop screens */
+        width: 40%; 
         margin-bottom: 20px;
         justify-content: space-between;
         display: flex;
@@ -1627,25 +1624,25 @@ cursor: pointer;
 
 .contactleft-container,
 .contactright-container {
-    width: 100%; /* Full width by default */
+    width: 100%; 
 }
 
-/* Media query for tablets (portrait and landscape) */
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .contactleft-container,
     .contactright-container {
-        width: 40%; /* Set width for tablet screens */
+        width: 40%; 
     }
 
 
 
 }
 
-/* Media query for mobile landscape and desktop */
+
 @media only screen and (orientation: landscape){
     .contactleft-container,
     .contactright-container {
-        width: 40%; /* Full width for mobile landscape and desktop */
+        width: 40%; 
     }
     
 }
